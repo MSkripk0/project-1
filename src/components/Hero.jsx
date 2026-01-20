@@ -39,10 +39,10 @@ const Hero = () => {
         </div>
 
         {/*3d robot*/}
-        <div data-aos="fade-up" data-aos-duration="1000" className="transition-opacity duration-1500 opacity-0">
+        
         <Spline className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full'
          scene="https://prod.spline.design/BiLHQiEX3wlODt7C/scene.splinecode" />
-</div>
+
 </menu>
   )
 }
